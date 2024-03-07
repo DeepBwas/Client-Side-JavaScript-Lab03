@@ -15,6 +15,7 @@ function createHamburger(bun, sauce, vegetable, patty, pattyNum, cheese, condime
     return object;
 };
 
-const hamburger = createHamburger('sesame', 'special', 'lettuce, tomato, onion', 'beef', 1, 'cheddar', 'ketchup, mustard');
+const hamburger = createHamburger('sesame', 'special', 'lettuce', 'beef', 2, 'cheddar', 'pickles');
 output.textContent = hamburger.info();
+console.log("Input: createHamburger('sesame', 'special', 'lettuce', 'beef', 2, 'cheddar', 'pickles')");
 
